@@ -1,0 +1,5 @@
+module.exports = {
+    HEARTBEAT_NOTIFICATION_EMAIL: "",
+    HEARTBEAT_RUN_INTERVAL_MINUTES: 5,
+    HEARTBEAT_URLS: [] 
+}

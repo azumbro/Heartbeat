@@ -1,0 +1,21 @@
+{
+  "name": "heartbeat",
+  "version": "1.0.0",
+  "bin": {
+    "lambdaapi": "bin/heartbeat.js"
+  },
+  "scripts": {
+    "build": "echo \"The build step is not required when using JavaScript!\" && exit 0",
+    "cdk": "cdk",
+    "format": "prettier --write ./bin/*.js ./lib/*.js ./resources/*.js"
+  },
+  "devDependencies": {
+    "aws-cdk": "^2.167.1",
+    "aws-cdk-lib": "^2.167.1",
+    "prettier": "^2.4.1"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.693.0",
+    "@aws-sdk/client-sns": "^3.693.0"
+  }
+}
